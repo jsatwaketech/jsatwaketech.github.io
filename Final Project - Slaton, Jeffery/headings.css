@@ -1,0 +1,204 @@
+@charset "utf-8";
+li {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: large;
+    display: inline;
+    list-style-type: circle;
+}
+h3 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: x-large;
+}
+
+h1 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+}
+.img_float {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: right;
+    border: thin solid #F56600;
+}
+.img_float_left {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+    border: thin solid #F56600;
+}
+
+p {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: large;
+}
+
+body {
+    background-color: #D4D4D4;
+}
+ul li a {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+ul li a:hover {
+    color: #F56600;
+}
+.paintpage li {
+    list-style-type: circle;
+    display: table;
+
+
+
+}
+
+
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+	li {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: large;
+    display: inline;
+}
+h3 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: x-large;
+}
+
+h1 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+}
+.img_float {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: right;
+    border: thin solid #F56600;
+}
+.img_float_left {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+    border: thin solid #F56600;
+}
+
+p {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: large;
+}
+
+body {
+    background-color: #D4D4D4;
+}
+ul li a {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.paintpage li {
+    display: table;
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 88.5%;
+	max-width: 975px;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+	li {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: large;
+    display: inline;
+}
+h3 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: x-large;
+}
+
+h1 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+}
+.img_float {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: right;
+    border: thin solid #F56600;
+}
+.img_float_left {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+    border: thin solid #F56600;
+}
+
+p {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: large;
+}
+
+body {
+    background-color: #D4D4D4;
+}
+ul li a {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.paintpage li {
+    display: list-item;
+    list-style-type: disc;
+}
+
+}
